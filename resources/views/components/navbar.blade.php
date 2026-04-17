@@ -5,14 +5,14 @@
             <div class="relative w-14 h-14 overflow-hidden border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(37,99,235,1)] transition-all duration-300 group-hover:-rotate-6 group-hover:shadow-none group-hover:translate-x-[2px] group-hover:translate-y-[2px]">
                 <div class="absolute inset-0 group-hover:bg-blue-600/0 transition-colors z-10"></div>
                 
-                <img src="./Image 3 (2).png" 
+                <img src="{{ asset('logo.jpeg') }}" 
                      alt="Laundry Taghazout Logo" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 relative z-0">
             </div>
 
             <div class="flex flex-col leading-none">
-                <span class="text-2xl font-[1000] uppercase tracking-tighter text-slate-900">Laundry</span>
-                <span class="text-xs font-bold text-blue-600 uppercase tracking-[0.3em] -mt-0.5">Taghazout</span>
+                <span class="text-2xl font-[1000] uppercase tracking-tighter text-slate-900">Taghazout</span>
+                <span class="text-xs font-bold text-blue-600 uppercase tracking-[0.3em] -mt-0.5">Laundry</span>
             </div>
         </a>
 

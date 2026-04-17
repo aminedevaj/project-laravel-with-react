@@ -7,11 +7,14 @@
                 <div>
                     <div class="flex items-center gap-4 mb-8 group cursor-pointer">
                         <div class="w-16 h-16 border-2 border-white overflow-hidden transition-transform group-hover:-rotate-12 shadow-[4px_4px_0px_0px_rgba(37,99,235,1)]">
-                            <img src="./Image 2 (3).png" alt="Logo" class="w-full h-full object-cover">
+                            <img 
+               
+                            src="{{ asset('logo.jpeg') }}"
+                            alt="Logo" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col leading-none">
-                            <span class="text-4xl font-[1000] uppercase tracking-tighter">Laundry</span>
-                            <span class="text-sm font-black text-blue-500 uppercase tracking-[0.4em]">Taghazout</span>
+                            <span class="text-4xl font-[1000] uppercase tracking-tighter">Taghazout</span>
+                            <span class="text-sm font-black text-blue-500 uppercase tracking-[0.4em]">Laundry</span>
                         </div>
                     </div>
                     <p class="text-slate-400 font-bold text-lg max-w-sm leading-relaxed mb-8">
